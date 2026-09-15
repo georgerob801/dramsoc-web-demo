@@ -1,0 +1,1 @@
+import{n as e,o as t,t as n}from"./jsx-runtime-C2f9LJXq.js";import{t as r}from"./ThemeProvider-Dsl_XTqo.js";var i=n(),a=t(function(){return(0,i.jsx)(r,{defaultTheme:`dark`,storageKey:`theme`,children:(0,i.jsx)(e,{})})});export{a as default};
