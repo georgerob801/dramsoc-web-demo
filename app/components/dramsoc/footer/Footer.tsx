@@ -94,11 +94,11 @@ const misc: Link[] = [
 export const Footer = (): ReactNode => {
     return (
         <div
-            className="bg-black text-white w-full py-5"
+            className="bg-black text-white w-full py-5 [&_a]:hover:opacity-70 **:transition-opacity"
         >
             <Container>
                 <div
-                    className="flex flex-wrap gap-6 [&_.flex]:gap-3 [&_a]:hover:opacity-70 **:transition-opacity"
+                    className="flex flex-wrap gap-6 [&_.flex]:gap-3"
                 >
 
                     <div
