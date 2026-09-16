@@ -1,1 +1,0 @@
-import{n as e,o as t,t as n}from"./jsx-runtime-C2f9LJXq.js";import{n as r,t as i}from"./Navbar-CyykLxUn.js";var a=n(),o=t(function(){return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(`div`,{children:[(0,a.jsx)(i,{}),(0,a.jsx)(e,{})]}),(0,a.jsx)(r,{})]})});export{o as default};
