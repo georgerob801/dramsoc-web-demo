@@ -6,7 +6,9 @@ import { Navbar } from "~/components/dramsoc/navbar/Navbar";
 export default function DefaultPageLayout(): ReactNode {
     return (
         <>
-            <div>
+            <div
+                className="grow flex flex-col"
+            >
                 <Navbar />
                 <Outlet />
             </div>
