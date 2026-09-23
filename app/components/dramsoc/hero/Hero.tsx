@@ -6,16 +6,19 @@ interface HeroProps {
     url: string;
     headerSize?: number;
     useChevron?: boolean;
+    id?: string;
+    className?: string;
 };
 
-export const Hero = ({ url, headerSize = 90, useChevron, children }: PropsWithChildren<HeroProps>): ReactNode => {
+export const Hero = ({ url, headerSize = 90, className, useChevron, id, children }: PropsWithChildren<HeroProps>): ReactNode => {
     return (
         <div
-            className="relative  lg:min-h-(--lg-min-height) md:min-h-(--md-min-height) flex flex-col justify-center items-center py-8"
+            className={`relative  lg:min-h-(--lg-min-height) md:min-h-(--md-min-height) flex flex-col justify-center items-center py-8 ${className}`}
             style={{
                 "--lg-min-height": `calc(100vh - ${headerSize}px)`,
                 "--md-min-height": `calc(80vh - ${headerSize}px)`,
             } as React.CSSProperties}
+            id={id}
         >
             <div
                 className="absolute bg-cover! bg-center! w-full h-full -z-1 blur-[0.5px] brightness-50"

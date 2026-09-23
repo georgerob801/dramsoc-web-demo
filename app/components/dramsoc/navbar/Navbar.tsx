@@ -34,7 +34,7 @@ const navItems: NavItem[] = [
     },
     {
         name: "Tickets",
-        url: "/#tickets",
+        url: "/tickets",
         priority: true
     }
 ];
@@ -42,7 +42,7 @@ const navItems: NavItem[] = [
 export const Navbar = (): ReactNode => {
     return (
         <div
-            className="w-full bg-black text-white"
+            className="w-full bg-black text-white sticky top-0 z-50"
         >
             <NavigationMenu
                 className="min-w-full"
@@ -51,12 +51,16 @@ export const Navbar = (): ReactNode => {
                     <div
                         className="flex justify-between items-center py-2"
                     >
-                        <DramSoc
-                            width={50}
-                            className="sm:w-[75px]! sm:h-[75px]!"
-                        />
+                        <Link
+                            to="/"
+                        >
+                            <DramSoc
+                                width={50}
+                                className="sm:w-[75px]! sm:h-[75px]!"
+                            />
+                        </Link>
                         <NavigationMenuList
-                            className="justify-end"
+                            className="justify-end gap-1"
                         >
                             {
                                 navItems.map(item => (

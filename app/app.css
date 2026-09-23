@@ -126,6 +126,10 @@
     }
 
     html {
-        @apply font-sans;
+        @apply font-sans scroll-smooth;
+    }
+
+    a {
+        @apply hover:opacity-80 transition-opacity;
     }
 }
