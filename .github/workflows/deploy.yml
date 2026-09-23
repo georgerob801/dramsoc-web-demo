@@ -26,9 +26,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: set 404 file
-        run: cp ./build/client/index.html ./build/client/404.html
-
       - name: Upload production files
         uses: actions/upload-artifact@v7
         with:
