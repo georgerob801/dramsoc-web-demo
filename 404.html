@@ -1,6 +1,43 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="modulepreload" href="/assets/manifest-2cf0bdac.js"/><link rel="modulepreload" href="/assets/entry.client-B7K93BAx.js"/><link rel="modulepreload" href="/assets/utils-ClvgYzxi.js"/><link rel="modulepreload" href="/assets/errorBoundaries-DT4RoXHB.js"/><link rel="modulepreload" href="/assets/jsx-runtime-D5XB8Qto.js"/><link rel="modulepreload" href="/assets/root-xd7EgtHu.js"/><link rel="modulepreload" href="/assets/dist-DE8p7S9x.js"/><link rel="modulepreload" href="/assets/BaseLayoutComponent-DLg2kORk.js"/><link rel="modulepreload" href="/assets/Hero-YVpW0QNw.js"/><link rel="modulepreload" href="/assets/DefaultPageLayoutComponent-qI55D8Vl.js"/><link rel="modulepreload" href="/assets/FooterPositionerComponent-CEtAGG9Q.js"/><link rel="stylesheet" href="/assets/root-DUfVmVo-.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap"/></head><body><script>window.__reactRouterContext = {"basename":"/","future":{"unstable_enableNodeReadableStream":false,"unstable_optimizeDeps":false},"routeDiscovery":{"mode":"initial"},"ssr":false,"isSpaMode":true};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/assets/manifest-2cf0bdac.js";
-import * as route0 from "/assets/root-xd7EgtHu.js";
-  
-  window.__reactRouterRouteModules = {"root":route0};
+<!DOCTYPE html>
+<html>
 
-import("/assets/entry.client-B7K93BAx.js");</script><!--$--><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_3\":-5,\"_4\":-5},\"loaderData\",{},\"actionData\",\"errors\"]\n");</script><!--$--><script>window.__reactRouterContext.streamController.close();</script><!--/$--><!--/$--></body></html>
+<head>
+    <meta charset="utf-8">
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // MIT License
+        // https://github.com/rafgraph/spa-github-pages
+        // This script takes the current url and converts the path and query
+        // string into just a query string, and then redirects the browser
+        // to the new url with only a query string and hash fragment,
+        // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+        // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+        // Note: this 404.html file must be at least 512 bytes for it to work
+        // with Internet Explorer (it is currently > 512 bytes)
+
+        // If you're creating a Project Pages site and NOT using a custom domain,
+        // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
+        // This way the code will only replace the route part of the path, and not
+        // the real directory in which the app resides, for example:
+        // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
+        // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
+        // Otherwise, leave pathSegmentsToKeep as 0.
+        var pathSegmentsToKeep = 0;
+
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
